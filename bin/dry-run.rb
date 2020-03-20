@@ -411,6 +411,12 @@ dependencies.each do |dep|
     next
   end
 
+  if "a" == "b"
+    puts "a"
+  else
+    puts "a"
+  end
+
   requirements_to_unlock =
     if $options[:lockfile_only] || !checker.requirements_unlocked_or_can_be?
       if checker.can_update?(requirements_to_unlock: :none) then :none

@@ -1,0 +1,2669 @@
+{
+  "metadata": {
+    "rubocop_version": "0.80.1",
+    "ruby_engine": "ruby",
+    "ruby_version": "2.6.5",
+    "ruby_patchlevel": "114",
+    "ruby_platform": "x86_64-linux-gnu"
+  },
+  "files": [
+    {
+      "path": "Gemfile",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing frozen string literal comment.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "correctable": true,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "bin/bump-version.rb",
+      "offenses": []
+    },
+    {
+      "path": "bin/dry-run.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "bundler/dependabot-bundler.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_fetcher.rb2",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_fetcher/child_gemfile_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_fetcher/gemspec_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_fetcher/path_gemspec_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_fetcher/require_relative_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_parser/file_preparer.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_parser/gemfile_declaration_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_updater/gemfile_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_updater/gemspec_dependency_name_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_updater/gemspec_sanitizer.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_updater/gemspec_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_updater/git_pin_replacer.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_updater/git_source_remover.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_updater/lockfile_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_updater/requirement_replacer.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/file_updater/ruby_requirement_setter.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/update_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/update_checker/file_preparer.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/update_checker/force_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/update_checker/latest_version_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/update_checker/requirements_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/update_checker/shared_bundler_helpers.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/update_checker/version_resolver.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/bundler/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/monkey_patches/bundler/definition_bundler_version_patch.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/monkey_patches/bundler/definition_ruby_version_patch.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/lib/dependabot/monkey_patches/bundler/git_source_patch.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/file_fetcher/child_gemfile_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/file_fetcher/gemspec_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/file_fetcher/path_gemspec_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/file_fetcher/require_relative_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/file_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/file_parser/file_preparer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/file_parser/gemfile_declaration_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/file_updater/gemfile_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/file_updater/gemspec_dependency_name_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/file_updater/gemspec_sanitizer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/file_updater/git_pin_replacer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/file_updater/git_source_remover_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/file_updater/requirement_replacer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/file_updater/ruby_requirement_setter_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/metadata_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/requirement_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/update_checker/file_preparer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/update_checker/force_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/update_checker/latest_version_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/update_checker/requirements_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/update_checker/version_resolver_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler/update_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/dependabot/bundler_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/fixtures/ruby/gemfiles/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/shared_contexts.rb",
+      "offenses": []
+    },
+    {
+      "path": "bundler/spec/spec_helper.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "cargo/dependabot-cargo.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "cargo/dependabot-core.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "cargo/lib/dependabot/cargo.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/lib/dependabot/cargo/file_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/lib/dependabot/cargo/file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/lib/dependabot/cargo/file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/lib/dependabot/cargo/file_updater/lockfile_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/lib/dependabot/cargo/file_updater/manifest_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/lib/dependabot/cargo/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/lib/dependabot/cargo/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/lib/dependabot/cargo/update_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/lib/dependabot/cargo/update_checker/file_preparer.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/lib/dependabot/cargo/update_checker/latest_version_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/lib/dependabot/cargo/update_checker/requirements_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/lib/dependabot/cargo/update_checker/version_resolver.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/lib/dependabot/cargo/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/spec/dependabot/cargo/file_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/spec/dependabot/cargo/file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/spec/dependabot/cargo/file_updater/lockfile_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/spec/dependabot/cargo/file_updater/manifest_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/spec/dependabot/cargo/file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/spec/dependabot/cargo/metadata_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/spec/dependabot/cargo/requirement_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/spec/dependabot/cargo/update_checker/file_preparer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/spec/dependabot/cargo/update_checker/latest_version_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/spec/dependabot/cargo/update_checker/requirements_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/spec/dependabot/cargo/update_checker/version_resolver_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/spec/dependabot/cargo/update_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/spec/dependabot/cargo/version_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/spec/dependabot/cargo_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "cargo/spec/spec_helper.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "common/dependabot-common.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/clients/azure.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/clients/bitbucket.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/clients/bitbucket_with_retries.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/clients/codecommit.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/clients/github_with_retries.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/clients/gitlab_with_retries.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/dependency.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/dependency_file.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/errors.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/file_fetchers.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/file_fetchers/base.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/file_parsers.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/file_parsers/base.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/file_parsers/base/dependency_set.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/file_updaters.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/file_updaters/base.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/git_commit_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/git_metadata_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/metadata_finders.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/metadata_finders/base.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/metadata_finders/base/changelog_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/metadata_finders/base/changelog_pruner.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/metadata_finders/base/commits_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/metadata_finders/base/release_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/pull_request_creator.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/pull_request_creator/azure.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/pull_request_creator/branch_namer.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/pull_request_creator/codecommit.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/pull_request_creator/commit_signer.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/pull_request_creator/github.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/pull_request_creator/gitlab.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/pull_request_creator/labeler.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/pull_request_creator/message_builder.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/pull_request_creator/message_builder/issue_linker.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/pull_request_creator/message_builder/link_and_mention_sanitizer.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/pull_request_creator/pr_name_prefixer.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/pull_request_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/pull_request_updater/github.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/security_advisory.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/shared_helpers.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/source.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/update_checkers.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/update_checkers/base.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/utils.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/dependabot/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/lib/rubygems_version_patch.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/clients/azure_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/clients/codecommit_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/clients/github_with_retries_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/clients/gitlab_with_retries_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/dependency_file_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/dependency_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/errors_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/file_fetchers/base_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/file_fetchers/shared_examples_for_file_fetchers.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/file_parsers/base/dependency_set_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/file_parsers/base_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/file_parsers/shared_examples_for_file_parsers.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/file_updaters/base_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/file_updaters/shared_examples_for_file_updaters.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/git_commit_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/git_metadata_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/metadata_finders/base/changelog_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/metadata_finders/base/changelog_pruner_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/metadata_finders/base/commits_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/metadata_finders/base/release_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/metadata_finders/base_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/metadata_finders/shared_examples_for_metadata_finders.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/pull_request_creator/azure_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/pull_request_creator/branch_namer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/pull_request_creator/commit_signer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/pull_request_creator/github_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/pull_request_creator/gitlab_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/pull_request_creator/labeler_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/pull_request_creator/message_builder/issue_linker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/pull_request_creator/message_builder/link_and_mention_sanitizer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/pull_request_creator/message_builder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/pull_request_creator/pr_name_prefixer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/pull_request_creator_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/pull_request_updater/github_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/pull_request_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/security_advisory_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/shared_examples_for_autoloading.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/shared_helpers_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/source_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/update_checkers/base_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dependabot/update_checkers/shared_examples_for_update_checkers.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dummy_package_manager/dummy.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dummy_package_manager/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dummy_package_manager/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/dummy_package_manager/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/fixtures/ruby/gemfiles/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/helpers/test/run.rb",
+      "offenses": []
+    },
+    {
+      "path": "common/spec/spec_helper.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "composer/dependabot-composer.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "composer/lib/dependabot/composer.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/lib/dependabot/composer/file_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/lib/dependabot/composer/file_fetcher/path_dependency_builder.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/lib/dependabot/composer/file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/lib/dependabot/composer/file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/lib/dependabot/composer/file_updater/lockfile_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/lib/dependabot/composer/file_updater/manifest_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/lib/dependabot/composer/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/lib/dependabot/composer/native_helpers.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/lib/dependabot/composer/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/lib/dependabot/composer/update_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/lib/dependabot/composer/update_checker/latest_version_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/lib/dependabot/composer/update_checker/requirements_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/lib/dependabot/composer/update_checker/version_resolver.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/lib/dependabot/composer/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/spec/dependabot/composer/file_fetcher/path_dependency_builder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/spec/dependabot/composer/file_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/spec/dependabot/composer/file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/spec/dependabot/composer/file_updater/lockfile_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/spec/dependabot/composer/file_updater/manifest_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/spec/dependabot/composer/file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/spec/dependabot/composer/metadata_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/spec/dependabot/composer/requirement_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/spec/dependabot/composer/update_checker/latest_version_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/spec/dependabot/composer/update_checker/requirements_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/spec/dependabot/composer/update_checker/version_resolver_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/spec/dependabot/composer/update_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/spec/dependabot/composer/version_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/spec/dependabot/composer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "composer/spec/spec_helper.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "dep/dependabot-dep.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "dep/lib/dependabot/dep.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/lib/dependabot/dep/file_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/lib/dependabot/dep/file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/lib/dependabot/dep/file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/lib/dependabot/dep/file_updater/lockfile_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/lib/dependabot/dep/file_updater/manifest_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/lib/dependabot/dep/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/lib/dependabot/dep/native_helpers.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/lib/dependabot/dep/path_converter.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/lib/dependabot/dep/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/lib/dependabot/dep/update_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/lib/dependabot/dep/update_checker/file_preparer.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/lib/dependabot/dep/update_checker/latest_version_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/lib/dependabot/dep/update_checker/requirements_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/lib/dependabot/dep/update_checker/version_resolver.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/lib/dependabot/dep/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/spec/dependabot/dep/file_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/spec/dependabot/dep/file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/spec/dependabot/dep/file_updater/lockfile_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/spec/dependabot/dep/file_updater/manifest_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/spec/dependabot/dep/file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/spec/dependabot/dep/metadata_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/spec/dependabot/dep/path_converter_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/spec/dependabot/dep/requirement_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/spec/dependabot/dep/update_checker/file_preparer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/spec/dependabot/dep/update_checker/latest_version_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/spec/dependabot/dep/update_checker/requirements_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/spec/dependabot/dep/update_checker/version_resolver_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/spec/dependabot/dep/update_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/spec/dependabot/dep/version_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/spec/dependabot/dep_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "dep/spec/spec_helper.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "docker/dependabot-docker.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "docker/lib/dependabot/docker.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/lib/dependabot/docker/file_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/lib/dependabot/docker/file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/lib/dependabot/docker/file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/lib/dependabot/docker/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/lib/dependabot/docker/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/lib/dependabot/docker/update_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/lib/dependabot/docker/utils/credentials_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/lib/dependabot/docker/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/spec/dependabot/docker/file_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/spec/dependabot/docker/file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/spec/dependabot/docker/file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/spec/dependabot/docker/metadata_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/spec/dependabot/docker/requirement_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/spec/dependabot/docker/update_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/spec/dependabot/docker/utils/credentials_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/spec/dependabot/docker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "docker/spec/spec_helper.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "elm/dependabot-elm.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "elm/lib/dependabot/elm.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/lib/dependabot/elm/file_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/lib/dependabot/elm/file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/lib/dependabot/elm/file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/lib/dependabot/elm/file_updater/elm_json_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/lib/dependabot/elm/file_updater/elm_package_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/lib/dependabot/elm/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/lib/dependabot/elm/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/lib/dependabot/elm/update_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/lib/dependabot/elm/update_checker/cli_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/lib/dependabot/elm/update_checker/elm_18_version_resolver.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/lib/dependabot/elm/update_checker/elm_19_version_resolver.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/lib/dependabot/elm/update_checker/requirements_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/lib/dependabot/elm/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/spec/dependabot/elm/file_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/spec/dependabot/elm/file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/spec/dependabot/elm/file_updater/elm_json_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/spec/dependabot/elm/file_updater/elm_package_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/spec/dependabot/elm/file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/spec/dependabot/elm/metadata_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/spec/dependabot/elm/requirement_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/spec/dependabot/elm/update_checker/cli_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/spec/dependabot/elm/update_checker/elm_18_version_resolver_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/spec/dependabot/elm/update_checker/elm_19_version_resolver_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/spec/dependabot/elm/update_checker/requirements_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/spec/dependabot/elm/update_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/spec/dependabot/elm/version_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/spec/dependabot/elm_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "elm/spec/spec_helper.rb",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/dependabot-core.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/dependabot-git_submodules.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/lib/dependabot/git_submodules.rb",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/lib/dependabot/git_submodules/file_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/lib/dependabot/git_submodules/file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/lib/dependabot/git_submodules/file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/lib/dependabot/git_submodules/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/lib/dependabot/git_submodules/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/lib/dependabot/git_submodules/update_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/lib/dependabot/git_submodules/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/spec/dependabot/git_submodules/file_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/spec/dependabot/git_submodules/file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/spec/dependabot/git_submodules/file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/spec/dependabot/git_submodules/metadata_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/spec/dependabot/git_submodules/requirement_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/spec/dependabot/git_submodules/update_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/spec/dependabot/git_submodules_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "git_submodules/spec/spec_helper.rb",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/dependabot-core.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/dependabot-github_actions.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/lib/dependabot/github_actions.rb",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/lib/dependabot/github_actions/file_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/lib/dependabot/github_actions/file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/lib/dependabot/github_actions/file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/lib/dependabot/github_actions/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/lib/dependabot/github_actions/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/lib/dependabot/github_actions/update_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/lib/dependabot/github_actions/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/spec/dependabot/github_actions/file_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/spec/dependabot/github_actions/file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/spec/dependabot/github_actions/file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/spec/dependabot/github_actions/metadata_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/spec/dependabot/github_actions/requirement_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/spec/dependabot/github_actions/update_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/spec/dependabot/github_actions_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "github_actions/spec/spec_helper.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/dependabot-go_modules.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/lib/dependabot/go_modules.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/lib/dependabot/go_modules/file_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/lib/dependabot/go_modules/file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/lib/dependabot/go_modules/file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/lib/dependabot/go_modules/file_updater/go_mod_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/lib/dependabot/go_modules/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/lib/dependabot/go_modules/native_helpers.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/lib/dependabot/go_modules/path_converter.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/lib/dependabot/go_modules/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/lib/dependabot/go_modules/update_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/lib/dependabot/go_modules/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/spec/dependabot/go_modules/file_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/spec/dependabot/go_modules/file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/spec/dependabot/go_modules/file_updater/go_mod_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/spec/dependabot/go_modules/file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/spec/dependabot/go_modules/metadata_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/spec/dependabot/go_modules/path_converter_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/spec/dependabot/go_modules/requirement_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/spec/dependabot/go_modules/update_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/spec/dependabot/go_modules/version_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/spec/dependabot/go_modules_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "go_modules/spec/spec_helper.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "gradle/dependabot-gradle.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "gradle/lib/dependabot/gradle.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/lib/dependabot/gradle/file_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/lib/dependabot/gradle/file_fetcher/settings_file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/lib/dependabot/gradle/file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/lib/dependabot/gradle/file_parser/property_value_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/lib/dependabot/gradle/file_parser/repositories_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/lib/dependabot/gradle/file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/lib/dependabot/gradle/file_updater/dependency_set_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/lib/dependabot/gradle/file_updater/property_value_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/lib/dependabot/gradle/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/lib/dependabot/gradle/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/lib/dependabot/gradle/update_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/lib/dependabot/gradle/update_checker/multi_dependency_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/lib/dependabot/gradle/update_checker/requirements_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/lib/dependabot/gradle/update_checker/version_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/lib/dependabot/gradle/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/dependabot/gradle/file_fetcher/settings_file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/dependabot/gradle/file_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/dependabot/gradle/file_parser/property_value_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/dependabot/gradle/file_parser/repositories_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/dependabot/gradle/file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/dependabot/gradle/file_updater/dependency_set_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/dependabot/gradle/file_updater/property_value_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/dependabot/gradle/file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/dependabot/gradle/metadata_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/dependabot/gradle/requirement_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/dependabot/gradle/update_checker/multi_dependency_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/dependabot/gradle/update_checker/requirements_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/dependabot/gradle/update_checker/version_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/dependabot/gradle/update_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/dependabot/gradle/version_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/dependabot/gradle_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "gradle/spec/spec_helper.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "hex/dependabot-hex.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex/file_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex/file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex/file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex/file_updater/lockfile_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex/file_updater/mixfile_git_pin_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex/file_updater/mixfile_requirement_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex/file_updater/mixfile_sanitizer.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex/file_updater/mixfile_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex/native_helpers.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex/update_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex/update_checker/file_preparer.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex/update_checker/requirements_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex/update_checker/version_resolver.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/lib/dependabot/hex/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/spec/dependabot/hex/file_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/spec/dependabot/hex/file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/spec/dependabot/hex/file_updater/lockfile_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/spec/dependabot/hex/file_updater/mixfile_git_pin_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/spec/dependabot/hex/file_updater/mixfile_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/spec/dependabot/hex/file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/spec/dependabot/hex/metadata_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/spec/dependabot/hex/requirement_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/spec/dependabot/hex/update_checker/file_preparer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/spec/dependabot/hex/update_checker/requirements_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/spec/dependabot/hex/update_checker/version_resolver_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/spec/dependabot/hex/update_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/spec/dependabot/hex/version_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/spec/dependabot/hex_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "hex/spec/spec_helper.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "maven/dependabot-core.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "maven/dependabot-maven.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "maven/lib/dependabot/maven.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/lib/dependabot/maven/file_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/lib/dependabot/maven/file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/lib/dependabot/maven/file_parser/property_value_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/lib/dependabot/maven/file_parser/repositories_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/lib/dependabot/maven/file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/lib/dependabot/maven/file_updater/declaration_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/lib/dependabot/maven/file_updater/property_value_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/lib/dependabot/maven/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/lib/dependabot/maven/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/lib/dependabot/maven/update_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/lib/dependabot/maven/update_checker/property_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/lib/dependabot/maven/update_checker/requirements_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/lib/dependabot/maven/update_checker/version_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/lib/dependabot/maven/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/spec/dependabot/maven/file_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/spec/dependabot/maven/file_parser/property_value_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/spec/dependabot/maven/file_parser/repositories_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/spec/dependabot/maven/file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/spec/dependabot/maven/file_updater/declaration_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/spec/dependabot/maven/file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/spec/dependabot/maven/metadata_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/spec/dependabot/maven/requirement_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/spec/dependabot/maven/update_checker/property_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/spec/dependabot/maven/update_checker/requirements_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/spec/dependabot/maven/update_checker/version_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/spec/dependabot/maven/update_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/spec/dependabot/maven/version_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/spec/dependabot/maven_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "maven/spec/spec_helper.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/dependabot-npm_and_yarn.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/dependency_files_filterer.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/file_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/file_fetcher/path_dependency_builder.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/file_parser/lockfile_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/file_parser/yarn_lockfile_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/file_updater/npm_lockfile_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/file_updater/npmrc_builder.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/file_updater/package_json_preparer.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/file_updater/package_json_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/file_updater/yarn_lockfile_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/native_helpers.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/sub_dependency_files_filterer.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/update_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/update_checker/latest_version_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/update_checker/library_detector.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/update_checker/registry_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/update_checker/requirements_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/update_checker/subdependency_version_resolver.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/update_checker/version_resolver.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/lib/dependabot/npm_and_yarn/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/dependency_files_filterer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/file_fetcher/path_dependency_builder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/file_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/file_parser/lockfile_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/file_parser/yarn_lockfile_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/file_updater/npmrc_builder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/file_updater/package_json_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/metadata_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/requirement_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/sub_dependency_files_filterer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/update_checker/latest_version_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/update_checker/library_detector_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/update_checker/registry_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/update_checker/requirements_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/update_checker/subdependency_version_resolver_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/update_checker/version_resolver_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/update_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn/version_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/dependabot/npm_and_yarn_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "npm_and_yarn/spec/spec_helper.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "nuget/dependabot-core.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "nuget/dependabot-nuget.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/file_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/file_fetcher/import_paths_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/file_fetcher/sln_project_paths_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/file_parser/global_json_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/file_parser/packages_config_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/file_parser/project_file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/file_parser/property_value_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/file_updater/packages_config_declaration_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/file_updater/project_file_declaration_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/file_updater/property_value_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/update_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/update_checker/property_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/update_checker/repository_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/update_checker/requirements_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/update_checker/version_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/lib/dependabot/nuget/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/file_fetcher/import_paths_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/file_fetcher/sln_project_paths_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/file_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/file_parser/global_json_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/file_parser/packages_config_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/file_parser/project_file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/file_parser/property_value_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/file_updater/packages_config_declaration_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/file_updater/project_file_declaration_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/file_updater/property_value_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/metadata_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/requirement_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/update_checker/repository_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/update_checker/requirements_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/update_checker/version_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/update_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget/version_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/dependabot/nuget_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "nuget/spec/spec_helper.rb",
+      "offenses": []
+    },
+    {
+      "path": "omnibus/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "omnibus/dependabot-omnibus.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "omnibus/lib/dependabot/omnibus.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "python/dependabot-python.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/authed_url_builder.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/file_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/file_parser/pipfile_files_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/file_parser/poetry_files_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/file_parser/python_requirement_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/file_parser/setup_file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/file_updater/pip_compile_file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/file_updater/pipfile_file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/file_updater/pipfile_manifest_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/file_updater/pipfile_preparer.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/file_updater/poetry_file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/file_updater/pyproject_preparer.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/file_updater/requirement_file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/file_updater/requirement_replacer.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/file_updater/setup_file_sanitizer.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/name_normaliser.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/native_helpers.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/python_versions.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/requirement_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/update_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/update_checker/index_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/update_checker/latest_version_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/update_checker/pip_compile_version_resolver.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/update_checker/pip_version_resolver.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/update_checker/pipenv_version_resolver.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/update_checker/poetry_version_resolver.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/update_checker/requirements_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/lib/dependabot/python/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/authed_url_builder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/file_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/file_parser/pipfile_files_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/file_parser/poetry_files_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/file_parser/python_requirement_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/file_parser/setup_file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/file_updater/pip_compile_file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/file_updater/pipfile_file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/file_updater/pipfile_manifest_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/file_updater/pipfile_preparer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/file_updater/poetry_file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/file_updater/pyproject_preparer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/file_updater/requirement_file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/file_updater/requirement_replacer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/file_updater/setup_file_sanitizer_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/metadata_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/requirement_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/requirement_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/update_checker/index_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/update_checker/latest_version_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/update_checker/pip_compile_version_resolver_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/update_checker/pip_version_resolver_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/update_checker/pipenv_version_resolver_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/update_checker/poetry_version_resolver_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/update_checker/requirements_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/update_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python/version_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/dependabot/python_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "python/spec/spec_helper.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/Gemfile",
+      "offenses": []
+    },
+    {
+      "path": "terraform/dependabot-terraform.gemspec",
+      "offenses": []
+    },
+    {
+      "path": "terraform/lib/dependabot/terraform.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/lib/dependabot/terraform/file_fetcher.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/lib/dependabot/terraform/file_parser.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/lib/dependabot/terraform/file_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/lib/dependabot/terraform/metadata_finder.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/lib/dependabot/terraform/requirement.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/lib/dependabot/terraform/requirements_updater.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/lib/dependabot/terraform/update_checker.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/lib/dependabot/terraform/version.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/spec/dependabot/terraform/file_fetcher_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/spec/dependabot/terraform/file_parser_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/spec/dependabot/terraform/file_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/spec/dependabot/terraform/metadata_finder_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/spec/dependabot/terraform/requirements_updater_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/spec/dependabot/terraform/update_checker_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/spec/dependabot/terraform/version_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/spec/dependabot/terraform_spec.rb",
+      "offenses": []
+    },
+    {
+      "path": "terraform/spec/spec_helper.rb",
+      "offenses": []
+    }
+  ],
+  "summary": {
+    "offense_count": 1,
+    "target_file_count": 658,
+    "inspected_file_count": 658
+  }
+}

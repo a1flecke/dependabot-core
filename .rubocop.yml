@@ -10,7 +10,7 @@ AllCops:
 
 Layout/DotPosition:
   EnforcedStyle: trailing
-
+      
 Layout/LineLength:
   Max: 80
 
